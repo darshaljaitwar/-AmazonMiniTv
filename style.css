@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 177, 177);
+    overflow: hidden;
+    position: relative;
+}
+
+#topNav{
+    width: 100%;
+    height: 10%;
+    background-color: #1A2224;
+    position: relative;
+}
+
+#miniLogo{
+   width: 200px;
+   height: 40px;
+   /* background-color: black; */
+   position: absolute;
+   top: 20%;
+   left: 3%;
+   background-image: url("logo.svg");
+   background-position: center;
+   background-size: cover;
+}
+
+
+#home{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #DE146D;
+}
+
+#webSeries{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: white;
+}
+
+#topNav #sf{
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: white;
+}
+
+#topNav #comedy{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: white;
+}
+
+#alogo{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    font-size: 27px;
+    color: #FF8F00;
+}
+
+#settings{
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    font-size: 22px;
+    color: white;
+}
+
+#middleNav{
+    width: 100%;
+    height: 47%;
+    background-color: black;
+    position: relative;
+}
+
+#middleNav img{
+    height: 100%;
+    width: 100%;
+}
+
+#lefta{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+}
+
+#righta{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+}
+
+#lastNav{
+    width: 100%;
+    height: 48%;
+    background-color: #1A2224;
+    position: relative;
+    border-top: 1px solid transparent;
+    position: relative;
+}
+
+#lastNav h1{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: white;
+}
+
+#photo1{
+    width: 21%;
+    height: 50%; 
+    background-color: #DE146D;
+    border-top: 1px solid transparent;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-image: url("https://www.koimoi.com/wp-content/new-galleries/2022/12/physics-wallah-review-01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#photo2{
+    width: 21%;
+    height: 50%;
+    background-color: #DE146D;
+    border-top: 1px solid transparent;
+    border-radius: 5px;
+    background-image: url("https://www.koimoi.com/wp-content/new-galleries/2023/06/ridhi-dogra-barun-sobtis-ideas-of-love-clash-in-badtameez-dil-trailer.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 22%;
+    left: 27%;
+}
+
+
+#photo3{
+    width: 21%;
+    height: 50%;
+    background-color: #DE146D;
+    border-top: 1px solid transparent;
+    border-radius: 5px;
+    background-image: url("https://movieetalks.com/wp-content/uploads/2022/06/Ishq-Express.webp");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 22%;
+    left: 49%;
+}
+
+
+#photo4{
+    width: 21%;
+    height: 50%;
+    background-color: #DE146D;
+    border-top: 1px solid transparent;
+    border-radius: 5px;
+    background-image: url("four4.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 22%;
+    right: 8%;
+}
+
+#photo5{
+    width: 21%;
+    height: 50%;
+    background-color: #DE146D;
+    border-top: 1px solid transparent;
+    border-radius: 5px;
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/4f603f4bafd0150f63b0a1504cb8700bad21f0e2240d5c629811d36cd4e13bdb.jpg");
+
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 22%;
+    right: -14%;
+}
+
+#jsDiv{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 10%;
+    backdrop-filter: blur(20px);;
+    border: 1px solid whitesmoke;
+    visibility: hidden;
+    /* position: relative; */
+}
+
+#jsDiv.active{
+    visibility: visible;
+}
+
+#leftDiv{
+    width: 48%;
+    height: 75%;
+    /* background-color: rgb(4, 86, 159); */
+    margin-top: 1%;
+    position: relative;
+}
+
+#leftDiv h1{
+    font-family: "Roboto";
+    font-size: 24px;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    color: whitesmoke;
+}
+
+#para1{
+    font-family: "Roboto";
+    color: whitesmoke;
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    opacity: 0.9;
+}
+
+#leftDiv button{
+    position: absolute;
+    top: 36%;
+    left: 7%;
+    width: 40%;
+    height: 12%;
+    font-family: "Roboto";
+    background-color: #cd1176;
+    color: whitesmoke;
+    font-size: 20px;
+    border: solid transparent;
+}
+
+#para2{
+    font-family: "Roboto";
+    color: whitesmoke;
+    position: absolute;
+    bottom: 38%;
+    left: 7%;
+    opacity: 0.9;
+}
+
+#rightDiv{
+    width: 47%;
+    height: 60%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 10%;
+    right: 4%;
+    border-radius: 15px;
+}
+
+#rightDiv video{
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 15px;   
+}
+
+#jsDiv #lastI{
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    font-size: 22px;
+}
+
